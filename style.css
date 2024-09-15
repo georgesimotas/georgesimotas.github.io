@@ -95,3 +95,45 @@ footer {
 }
 
 
+/* About Me Section */
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+  margin: 40px auto;
+  gap: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-picture {
+  flex-shrink: 0;
+}
+
+.about-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 30%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.about-description {
+  max-width: 600px;
+  text-align: left;
+}
+
+.about-description h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-description p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
