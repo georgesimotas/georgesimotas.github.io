@@ -137,3 +137,138 @@ footer {
   line-height: 1.6;
   color: #555;
 }
+
+/* Work Experience Section */
+.work-experience {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px 20px 50px;
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.work-experience h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.experience-item {
+  margin-bottom: 50px;
+}
+
+.experience-header {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Adjust the space between the logo and the text */
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+  object-fit: contain; /* Keeps the aspect ratio of the logo */
+  flex-shrink: 0; /* Prevents the logo from shrinking */
+}
+
+.experience-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-item h2 {
+  font-size: 22px;
+  color: #2c3e50;
+  margin: 0; /* Remove margin to align properly with logo */
+}
+
+.experience-item h3 {
+  font-size: 18px;
+  margin: 5px 0 10px 0;
+  color: #7f8c8d;
+}
+
+
+.experience-item ul {
+  padding-left: 20px;
+}
+
+.experience-item li {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Projects Section */
+.projects-section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.projects-section h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  background: #91cbec;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: left;
+}
+
+.project-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.project-logo {
+  width: 40px; /* Adjust size to fit your design */
+  height: 40px;
+  object-fit: contain;
+}
+
+.project-card h2 {
+  font-size: 20px;
+  margin: 0;
+  color: #2c3e50;
+}
+
+.project-card p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  line-height: 1.5;
+  color: #555;
+}
+
+
+.project-button {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #072d47;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.project-button:hover {
+  background-color: #2980b9;
+  transform: translateY(-2px);
+}
