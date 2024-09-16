@@ -138,17 +138,6 @@ footer {
   color: #555;
 }
 
-.main-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: calc(100vh - 80px);
-  padding: 20px 0;
-  position: relative;
-  top: -60px; 
-}
-
 /* Work Experience Section */
 .work-experience {
   max-width: 800px;
